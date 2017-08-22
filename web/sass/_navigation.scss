@@ -1,0 +1,13 @@
+.navbar {
+  background-color: transparent;
+}
+
+.top-nav-collapse {
+  background-color: $mns2-primary;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: $mns2-primary;
+  }
+}

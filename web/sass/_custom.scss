@@ -1,0 +1,79 @@
+.intro-homepage{
+  background: url("../img/mns2-design/pictures/AdobeStock_125373335_Preview.jpeg")no-repeat center center;
+  background-size: cover;
+}
+
+.intro-stages{
+  background: url("../img/mns2-design/pictures/AdobeStock_77741087_Preview.jpeg")no-repeat center center;
+  background-size: cover;
+}
+
+.intro-consultation{
+  background: url("../img/mns2-design/pictures/AdobeStock_61352399_Preview.jpeg")no-repeat center center;
+  background-size: cover;
+}
+
+.intro-formations{
+  background: url("../img/mns2-design/pictures/AdobeStock_105568884_Preview.jpeg")no-repeat center center;
+  background-size: cover;
+}
+
+.intro-sportifs{
+  background: url("../img/mns2-design/pictures/AdobeStock_102465818_Preview.jpeg")no-repeat center center;
+  background-size: cover;
+}
+
+/*SCROLL DOWN ICON*/
+.icon-scroll{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  .mouse,
+  .mouse:before {
+    position: absolute;
+    left: 50%;
+  }
+  .mouse {
+    width: 40px;
+    height: 70px;
+    margin-left: -20px;
+    top: 50%;
+    margin-top: -35px;
+    box-shadow: inset 0 0 0 1px #fff;
+    border-radius: 25px;
+  }
+  .mouse:before {
+    content: '';
+    width: 4px;
+    height: 14px;
+    background: #fff;
+    margin-left: -2px;
+    top: 8px;
+    border-radius: 2px;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: scroll;
+    animation-name: scroll;
+  }
+  @-webkit-keyframes scroll {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: translateY(26px);
+      transform: translateY(26px);
+    }
+  }
+  @keyframes scroll {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: translateY(26px);
+      transform: translateY(26px);
+    }
+  }
+}

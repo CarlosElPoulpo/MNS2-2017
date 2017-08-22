@@ -1,70 +1,70 @@
 /*VARIABLES, TOOLS & ADD-ON*/
 /*COLORS*/
 /*https://material.io/color/#!/?view.left=1&view.right=0&primary.color=006064&secondary.color=00838e*/
-/* line 7, ../sass/_colors.scss */
+/* line 7, ../sass/_colors2.scss */
 .mns2-primary {
-  background-color: #006064 !important;
+  background-color: #003c3d !important;
   color: white !important;
 }
 
-/* line 12, ../sass/_colors.scss */
+/* line 12, ../sass/_colors2.scss */
 .mns2-primary-text {
-  color: #006064 !important;
+  color: #003c3d !important;
 }
 
-/* line 16, ../sass/_colors.scss */
+/* line 16, ../sass/_colors2.scss */
 .mns2-primary-light {
-  background-color: #428e92 !important;
-  color: black !important;
+  background-color: #346767 !important;
+  color: white !important;
 }
 
-/* line 21, ../sass/_colors.scss */
+/* line 21, ../sass/_colors2.scss */
 .mns2-primary-light-text {
-  color: #428e92 !important;
+  color: #346767 !important;
 }
 
-/* line 25, ../sass/_colors.scss */
+/* line 25, ../sass/_colors2.scss */
 .mns2-primary-dark {
-  background-color: #00363a !important;
+  background-color: #001717 !important;
   color: white !important;
 }
 
-/* line 30, ../sass/_colors.scss */
+/* line 30, ../sass/_colors2.scss */
 .mns2-primary-dark-text {
-  color: #00363a !important;
+  color: #001717 !important;
 }
 
-/* line 38, ../sass/_colors.scss */
+/* line 38, ../sass/_colors2.scss */
 .mns2-secondary {
-  background-color: #00838e !important;
-  color: white !important;
-}
-
-/* line 43, ../sass/_colors.scss */
-.mns2-secondary-text {
-  color: #00838e !important;
-}
-
-/* line 47, ../sass/_colors.scss */
-.mns2-secondary-light {
-  background-color: #4fb3be !important;
+  background-color: #00bec9 !important;
   color: black !important;
 }
 
-/* line 52, ../sass/_colors.scss */
+/* line 43, ../sass/_colors2.scss */
+.mns2-secondary-text {
+  color: #00bec9 !important;
+}
+
+/* line 47, ../sass/_colors2.scss */
+.mns2-secondary-light {
+  background-color: #61f1fc !important;
+  color: black !important;
+}
+
+/* line 52, ../sass/_colors2.scss */
 .mns2-secondary-light-text {
-  color: #4fb3be !important;
+  color: #61f1fc !important;
 }
 
-/* line 56, ../sass/_colors.scss */
+/* line 56, ../sass/_colors2.scss */
 .mns2-secondary-dark {
-  background-color: #005661 !important;
-  color: white !important;
+  background-color: #008d98 !important;
+  color: black !important;
 }
 
-/* line 61, ../sass/_colors.scss */
+/* line 61, ../sass/_colors2.scss */
 .mns2-secondary-dark-text {
-  color: #005661 !important;
+  color: #008d98 !important;
 }
 
 /*FONTS*/
@@ -104,3 +104,107 @@
 }
 
 /* YOUR CUSTOM STYLES */
+/* line 1, ../sass/_custom.scss */
+.intro-homepage {
+  background: url("../img/mns2-design/pictures/AdobeStock_125373335_Preview.jpeg") no-repeat center center;
+  background-size: cover;
+}
+
+/* line 6, ../sass/_custom.scss */
+.intro-stages {
+  background: url("../img/mns2-design/pictures/AdobeStock_77741087_Preview.jpeg") no-repeat center center;
+  background-size: cover;
+}
+
+/* line 11, ../sass/_custom.scss */
+.intro-consultation {
+  background: url("../img/mns2-design/pictures/AdobeStock_61352399_Preview.jpeg") no-repeat center center;
+  background-size: cover;
+}
+
+/* line 16, ../sass/_custom.scss */
+.intro-formations {
+  background: url("../img/mns2-design/pictures/AdobeStock_105568884_Preview.jpeg") no-repeat center center;
+  background-size: cover;
+}
+
+/* line 21, ../sass/_custom.scss */
+.intro-sportifs {
+  background: url("../img/mns2-design/pictures/AdobeStock_102465818_Preview.jpeg") no-repeat center center;
+  background-size: cover;
+}
+
+/*SCROLL DOWN ICON*/
+/* line 27, ../sass/_custom.scss */
+.icon-scroll {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/* line 30, ../sass/_custom.scss */
+.icon-scroll .mouse,
+.icon-scroll .mouse:before {
+  position: absolute;
+  left: 50%;
+}
+/* line 35, ../sass/_custom.scss */
+.icon-scroll .mouse {
+  width: 40px;
+  height: 70px;
+  margin-left: -20px;
+  top: 50%;
+  margin-top: -35px;
+  box-shadow: inset 0 0 0 1px #fff;
+  border-radius: 25px;
+}
+/* line 44, ../sass/_custom.scss */
+.icon-scroll .mouse:before {
+  content: '';
+  width: 4px;
+  height: 14px;
+  background: #fff;
+  margin-left: -2px;
+  top: 8px;
+  border-radius: 2px;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: scroll;
+  animation-name: scroll;
+}
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(26px);
+    transform: translateY(26px);
+  }
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(26px);
+    transform: translateY(26px);
+  }
+}
+/* line 1, ../sass/_navigation.scss */
+.navbar {
+  background-color: transparent;
+}
+
+/* line 5, ../sass/_navigation.scss */
+.top-nav-collapse {
+  background-color: #003c3d;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 10, ../sass/_navigation.scss */
+  .navbar {
+    background-color: #003c3d;
+  }
+}

@@ -18,4 +18,36 @@ class DefaultController extends Controller
             'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
         ]);
     }
+
+    /**
+     * @Route("/stages", name="stages")
+     */
+    public function stageAction(Request $request)
+    {
+        return $this->render(":default:stages.html.twig");
+    }
+
+    /**
+     * @Route("/consultation-nutrition", name="consultation")
+     */
+    public function consultationAction(Request $request)
+    {
+        return $this->render(":default:consultation.html.twig");
+    }
+
+    /**
+     * @Route("/formation-nutrition", name="formations")
+     */
+    public function formationsAction(Request $request)
+    {
+        return $this->render(":default:formations.html.twig");
+    }
+
+    /**
+     * @Route("/sportifs", name="sportifs")
+     */
+    public function sportifsAction(Request $request)
+    {
+        return $this->render(":default:sportifs.html.twig");
+    }
 }

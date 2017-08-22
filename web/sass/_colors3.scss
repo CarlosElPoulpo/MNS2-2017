@@ -1,0 +1,63 @@
+/*COLORS*/
+/*https://material.io/color/#!/?view.left=1&view.right=0&primary.color=006064&secondary.color=00838e*/
+$mns2-primary: #37474f;
+$mns2-primary-light: #62727b;
+$mns2-primary-dark: #102027;
+
+.mns2-primary{
+  background-color: $mns2-primary!important;
+  color: white!important;
+}
+
+.mns2-primary-text{
+  color: $mns2-primary!important;
+}
+
+.mns2-primary-light{
+  background-color: $mns2-primary-light!important;
+  color: black!important;
+}
+
+.mns2-primary-light-text{
+  color: $mns2-primary-light!important;
+}
+
+.mns2-primary-dark{
+  background-color: $mns2-primary-dark!important;
+  color: white!important;
+}
+
+.mns2-primary-dark-text{
+  color: $mns2-primary-dark!important;
+}
+
+$mns2-secondary: #33691e;
+$mns2-secondary-light: #629749;
+$mns2-secondary-dark: #003d00;
+
+.mns2-secondary{
+  background-color: $mns2-secondary!important;
+  color: white!important;
+}
+
+.mns2-secondary-text{
+  color: $mns2-secondary!important;
+}
+
+.mns2-secondary-light{
+  background-color: $mns2-secondary-light!important;
+  color: black!important;
+}
+
+.mns2-secondary-light-text{
+  color: $mns2-secondary-light!important;
+}
+
+.mns2-secondary-dark{
+  background-color: $mns2-secondary-dark!important;
+  color: white!important;
+}
+
+.mns2-secondary-dark-text{
+  color: $mns2-secondary-dark!important;
+}
