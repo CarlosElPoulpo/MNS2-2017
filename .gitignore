@@ -17,3 +17,5 @@
 /web/bundles/
 /app/config/parameters.yml.dist
 /.idea/
+/.sass-cache
+/node_modules
