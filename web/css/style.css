@@ -1,72 +1,68 @@
 /*VARIABLES, TOOLS & ADD-ON*/
 /*COLORS*/
-/*$first-color: rgba(2, 229,241,1);
-$second-color: rgba(2, 169, 177,1);
-$third-color: rgba(1, 96, 101,1);
-$fourth-color: rgba(1, 108, 114,1);
-$fifth-color: rgba(2, 72, 75,1);*/
-/* line 12, ../sass/_colors.scss */
+/*https://material.io/color/#!/?view.left=1&view.right=0&primary.color=006064&secondary.color=00838e*/
+/* line 7, ../sass/_colors.scss */
 .mns2-primary {
   background-color: #006064 !important;
   color: white !important;
 }
 
-/* line 17, ../sass/_colors.scss */
+/* line 12, ../sass/_colors.scss */
 .mns2-primary-text {
   color: #006064 !important;
 }
 
-/* line 21, ../sass/_colors.scss */
+/* line 16, ../sass/_colors.scss */
 .mns2-primary-light {
   background-color: #428e92 !important;
   color: black !important;
 }
 
-/* line 26, ../sass/_colors.scss */
+/* line 21, ../sass/_colors.scss */
 .mns2-primary-light-text {
   color: #428e92 !important;
 }
 
-/* line 30, ../sass/_colors.scss */
+/* line 25, ../sass/_colors.scss */
 .mns2-primary-dark {
   background-color: #00363a !important;
   color: white !important;
 }
 
-/* line 35, ../sass/_colors.scss */
+/* line 30, ../sass/_colors.scss */
 .mns2-primary-dark-text {
   color: #00363a !important;
 }
 
-/* line 43, ../sass/_colors.scss */
+/* line 38, ../sass/_colors.scss */
 .mns2-secondary {
   background-color: #00838e !important;
   color: white !important;
 }
 
-/* line 48, ../sass/_colors.scss */
+/* line 43, ../sass/_colors.scss */
 .mns2-secondary-text {
   color: #00838e !important;
 }
 
-/* line 52, ../sass/_colors.scss */
+/* line 47, ../sass/_colors.scss */
 .mns2-secondary-light {
   background-color: #4fb3be !important;
   color: black !important;
 }
 
-/* line 57, ../sass/_colors.scss */
+/* line 52, ../sass/_colors.scss */
 .mns2-secondary-light-text {
   color: #4fb3be !important;
 }
 
-/* line 61, ../sass/_colors.scss */
+/* line 56, ../sass/_colors.scss */
 .mns2-secondary-dark {
   background-color: #005661 !important;
   color: white !important;
 }
 
-/* line 66, ../sass/_colors.scss */
+/* line 61, ../sass/_colors.scss */
 .mns2-secondary-dark-text {
   color: #005661 !important;
 }
