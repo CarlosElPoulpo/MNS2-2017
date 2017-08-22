@@ -3,11 +3,28 @@
     <head>
         <meta charset="UTF-8" />
         <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        {% block stylesheets %}
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+            <!-- Bootstrap core CSS -->
+            <link href="{{ asset("css/bootstrap.min.css") }}" rel="stylesheet">
+            <!-- Material Design Bootstrap -->
+            <link href="{{ asset("css/mdb.min.css") }}" rel="stylesheet">
+            <!-- Your custom styles (optional) -->
+            <link href="{{ asset("css/style.css") }}" rel="stylesheet">
+        {% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+        {% block body %}
+        {% endblock %}
+        {% block javascripts %}
+            <script type="text/javascript" src="{{ asset("js/jquery-3.2.1.min.js") }}"></script>
+            <!-- Bootstrap tooltips -->
+            <script type="text/javascript" src="{{ asset("js/popper.min.js") }}"></script>
+            <!-- Bootstrap core JavaScript -->
+            <script type="text/javascript" src="{{ asset("js/bootstrap.min.js") }}"></script>
+            <!-- MDB core JavaScript -->
+            <script type="text/javascript" src="{{ asset("js/mdb.min.js") }}"></script>
+        {% endblock %}
     </body>
 </html>
